@@ -1,2 +1,3 @@
 # Bootstrap-Project
-A webpage designed to highlight and showcase my ability to access and utilize Bootstrap CSS functions.
+A webpage designed to highlight and showcase Bootstrap CSS functions.
+Responsive design for smaller screen viewing.
