@@ -50,7 +50,7 @@ body {
 }
 
 .navbar.scrolled {
-    background: rgb(0, 0, 0, 1.0);
+    background: rgb(0, 0, 0, 0.25);
     transition: background 500ms;
 }
 
@@ -62,6 +62,16 @@ body {
 .borderBottom {
     padding-bottom: 50px;
     border-bottom: 2px solid yellow;
+}
+
+.imageResize {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imageResize img {
+    width: 75%;
+    height: 75%;
 }
 
 @media (max-width: 1200px) {
@@ -77,5 +87,14 @@ body {
 @media (max-width: 768px) {
     .borderBottom {
         padding-bottom: 0px;
+    }
+
+    .imageResize {
+        padding-bottom: 50px;
+    }
+
+    .imageResize img {
+        width: 50%;
+        height: 50%;
     }
 }
