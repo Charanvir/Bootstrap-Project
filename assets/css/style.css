@@ -74,6 +74,10 @@ body {
     height: 75%;
 }
 
+.heroImage {
+    padding-top: 60px;
+}
+
 @media (max-width: 1200px) {
     #headingGroup h1 {
         font-weight: 100;
@@ -81,6 +85,12 @@ body {
     }
     .blurb h2 {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .heroImage{
+        padding-top: 0;
     }
 }
 
